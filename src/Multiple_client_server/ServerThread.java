@@ -33,7 +33,7 @@ public class ServerThread implements Runnable{
                 System.out.println("From Client: " + (String) cMsg);
 
                 String serverMsg = (String) cMsg;
-                serverMsg = serverMsg.toUpperCase();
+                serverMsg = serverMsg.toLowerCase();
 
                 //send to client..
                 oos.writeObject(serverMsg);

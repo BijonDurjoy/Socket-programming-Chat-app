@@ -1,4 +1,4 @@
-package multiple_client_group_chat.client;
+package multiple_client_group_chat.Clients;
 
 import java.io.*;
 import java.net.Socket;

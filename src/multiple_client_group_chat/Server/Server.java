@@ -42,8 +42,8 @@ public class Server {
     }
 
     public static void main(String[] args) throws IOException {
-        ServerSocket serverSocket = new ServerSocket(4444);
-        System.out.println("Server Started listening on port: 4444");
+        ServerSocket serverSocket = new ServerSocket(4443);
+        System.out.println("Server Started listening on port: 4443");
         Scanner input = new Scanner(System.in);
 
         System.out.println("Set numbers of percipients: ");
